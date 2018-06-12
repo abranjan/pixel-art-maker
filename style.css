@@ -2,11 +2,26 @@
     display: flex;
 }
 
-
 .column {
     display: flex;
     flex-direction: column;
     width: 14px;
     height: 14px;
-    border: 2px solid black;
+    border: 1px solid black;
+}
+
+.dot{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid blue;
+}
+
+.colorSet{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+
 }
